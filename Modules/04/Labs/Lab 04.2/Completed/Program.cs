@@ -23,7 +23,7 @@ Console.WriteLine(queryA);
 // TODO: b) Find the first movie with a rating above 9.0f
 // (or the just first movie if no such high-rated movie exists)
 Movie queryB = movies
-    .FirstOrDefault(movie => movie.ImbdRating >= 9.0f, movies.First())
+    .FirstOrDefault(movie => movie.ImdbRating >= 9.0f, movies.First())
     ;
 Console.WriteLine(queryB);
 

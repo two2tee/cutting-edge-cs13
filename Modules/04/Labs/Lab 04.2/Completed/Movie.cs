@@ -1,2 +1,2 @@
 ﻿
-record class Movie(string Title, int Year, float ImbdRating);
+record class Movie(string Title, int Year, float ImdbRating);
