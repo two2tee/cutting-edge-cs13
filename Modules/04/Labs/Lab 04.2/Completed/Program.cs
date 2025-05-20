@@ -41,7 +41,6 @@ IEnumerable<Movie> queryD = movies
     .Take(1..^1)
     ;
 foreach (Movie movie in queryD)
-{
     Console.WriteLine(movie);
 }
 
