@@ -1,15 +1,15 @@
 ﻿IEnumerable<Movie> movies = new List<Movie>
 {
-    new("Total Recall", 2012, 6.2f),
-    new("Evil Dead", 1981, 7.5f),
-    new("The Matrix", 1999, 8.7f),
-    new("Cannonball Run", 1981, 6.3f),
-    new("Star Wars: Episode IV - A New Hope", 1977, 8.6f),
-    new("Don't Look Up", 2021, 7.3f),
-    new("Evil Dead", 2013, 6.5f),
-    new("Who Am I", 2014, 7.5f),
-    new("Total Recall", 1990, 7.5f),
-    new("The Interview", 2014, 6.5f)
+    new(Title: "Total Recall", Year: 2012, ImdbRating: 6.2f),
+    new(Title: "Evil Dead", Year: 1981, ImdbRating: 7.5f),
+    new(Title: "The Matrix", Year: 1999, ImdbRating: 8.7f),
+    new(Title: "Cannonball Run", Year: 1981, ImdbRating: 6.3f),
+    new(Title: "Star Wars: Episode IV - A New Hope", Year: 1977, ImdbRating: 8.6f),
+    new(Title: "Don't Look Up", Year: 2021, ImdbRating: 7.3f),
+    new(Title: "Evil Dead", Year: 2013, ImdbRating: 6.5f),
+    new(Title: "Who Am I", Year: 2014, ImdbRating: 7.5f),
+    new(Title: "Total Recall", Year: 1990, ImdbRating: 7.5f),
+    new(Title: "The Interview", Year: 2014, ImdbRating: 6.5f)
 };
 
 
